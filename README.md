@@ -1,1 +1,1 @@
-# Courses--Complete-Intro-to-Linux---he-Command-Line
+# Courses--Complete-Intro-to-Linux-and-the-Command-Line
