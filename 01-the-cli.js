@@ -197,7 +197,132 @@
 
 // :~$ ls -lash snap
 
-// :~$ 
+// :~$ clear
+
+
+
+
+/****************************************/
+
+    /*            CLI Search               */
+
+
+// :~$ pwd
+
+// :~$ cd/
+
+// /$ ls
+
+// /$ cd ~ 
+
+// /$ pwd   //Home Directories
+
+// :~$ cd ~/snap
+
+// :~/snap$ pwd
+/*
+     Output:
+        /home/username/snap
+        */
+
+ // :~/snap$ cd ~
+ 
+ // :~$ cd..
+ 
+ // :~/home$ cd..
+ 
+ // :~$ cd ~
+ 
+ // :~$ cd snap/
+ 
+ // :~/snap$ cd..
+ 
+ // :~$ cd /
+
+ // :~$ pwd
+
+ //  /
+
+ // :~$ cd / \
+ 
+ // :~$ clear
+
+ //---------------------
+
+ // :/$   ls -lsah snap
+
+// :/$   clear
+
+
+// ------------------------------
+
+
+ 
+// :/$   cd home/
+
+// :/$   cd ..
+
+// :/$   ls
+
+// :/$   cd home/nadeem/
+
+// :/$   cd home/nadeem/snap/multipass-sshfs/
+
+// :/$   ls
+
+// :/$   py
+
+// :/$   pyth
+
+// :/$   git describe
+
+
+// ---- if you hit Ctrl+R    ---> ls -lsah snap
+
+// ---- if you hit Ctrl+R    ---> ls snap/
+
+ 
+/****************************************/
+
+    /*            CLI Search               */
+
+// :/$  tail ~/.bash_history       //--history
+
+// :/$ pwd
+
+// :/$ ls -a
+
+// :/$ !! 
+
+// :/$ pwd
+
+//---------------
+
+// :/$ ls -lsah
+
+// :/$  
+
+// :/$ pwd
+
+//---------------
+
+
+// :/$   ls
+
+// :/$   Ctrt+L   -----> it also does clear.     // ctrl+N -> No idea
+
+
+
+// -------> Copy and paste on the command line <-------- //
+
+
+// ----> Ctrl+Shift+C   $   Ctrl+Shift+V. <---- //
+
+
+
+
+
+
 
 
 
