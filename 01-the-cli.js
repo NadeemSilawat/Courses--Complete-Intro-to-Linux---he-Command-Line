@@ -5,7 +5,7 @@
 // pwd  //Path
 
 // pwd--help
- 
+
 // clear
 
 // // ------------------------
@@ -43,9 +43,9 @@
 // cd../ nadeem /../ nadeem
 
 /*********************************************/
-    /*            CLI Directories & Arguments               */
+/*            CLI Directories & Arguments               */
 
- 
+
 // ls
 
 // cd .. 
@@ -90,7 +90,7 @@
 
 /****************************************/
 
-    /*            Flags               */
+/*            Flags               */
 
 // pwd --help
 
@@ -153,7 +153,7 @@
 // clear
 
 // -----------------------
-   
+
 // :~$ ls
 
 // :~$ ls --ignore=snap
@@ -204,7 +204,7 @@
 
 /****************************************/
 
-    /*            CLI Search               */
+/*            CLI Search               */
 
 
 // :~$ pwd
@@ -225,31 +225,31 @@
         /home/username/snap
         */
 
- // :~/snap$ cd ~
- 
- // :~$ cd..
- 
- // :~/home$ cd..
- 
- // :~$ cd ~
- 
- // :~$ cd snap/
- 
- // :~/snap$ cd..
- 
- // :~$ cd /
+// :~/snap$ cd ~
 
- // :~$ pwd
+// :~$ cd..
 
- //  /
+// :~/home$ cd..
 
- // :~$ cd / \
- 
- // :~$ clear
+// :~$ cd ~
 
- //---------------------
+// :~$ cd snap/
 
- // :/$   ls -lsah snap
+// :~/snap$ cd..
+
+// :~$ cd /
+
+// :~$ pwd
+
+//  /
+
+// :~$ cd / \
+
+// :~$ clear
+
+//---------------------
+
+// :/$   ls -lsah snap
 
 // :/$   clear
 
@@ -257,7 +257,7 @@
 // ------------------------------
 
 
- 
+
 // :/$   cd home/
 
 // :/$   cd ..
@@ -281,10 +281,10 @@
 
 // ---- if you hit Ctrl+R    ---> ls snap/
 
- 
+
 /****************************************/
 
-    /*            CLI Search               */
+/*            Bash History               */
 
 // :/$  tail ~/.bash_history       //--history
 
@@ -320,6 +320,79 @@
 
 
 
+/************************************************/
+
+/*           CLI Shortcuts           */
+
+//   Shortcuts
+
+        //  CTRL + A     // takes you to the beginning of the line
+       
+        //  CTRL + E     // takes you to the end of the line
+       
+        //  CTRL + K     // "yank" everything after the cursor
+       
+        //  CTRL + U     // "yank" everything before the cursor
+       
+        //  CTRL + Y     // "paste"(paste in quotes because it doesn't actually go into your system clipboard) everything you yanked
+       
+        //  CTRL + L     // clear the screen
+       
+        //  CTRL + R     // reverse search through history
+
+
+/************************************************/
+        
+        /*           SIGNALS           */
+
+// - Ctrl + C - SIGINT
+
+/* 
+ So go type yes into your terminal, You'll find yourself with an infinite wall of 
+          ever-spamming y s in front of you. To stop it, hit Ctrl + C and it'll stop immediately. */
+
+
+// :/$   tail -f .bash_history
+
+
+// :/$   yes
+
+// - Ctrl + C 
+
+// - Ctrl + D
+
+
+
+// PRESS -> Ctrl + D - SIGQUIT
+
+
+// ---------------------------
+
+
+// :/$   ps aux
+
+// :/$   ps aux | grep yes
+
+// :/$   clear 
+
+// ---------------------------
+
+
+// :/$   yes > /dev/null &
+
+// :/$   pas aux | grep yes
+
+// :/$   kill -9 1465
+
+// :/$   kill -l
+
+// :/$   kill -SIGKILL 1467
+
+// :/$   clear
+
+// ----------------------------
+
+// :/$   kill -l
 
 
 
@@ -328,4 +401,14 @@
 
 
 
+        
 
+        
+
+        
+
+        
+
+        
+
+        
