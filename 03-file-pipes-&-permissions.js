@@ -1,5 +1,7 @@
 // --------Reading Files--------- //
 
+            //-------LESS-------
+
 // :~$ less textfile.txt
 
 // :~$ ls 
@@ -14,7 +16,7 @@
 // :~$ more textfile.txt
 
 
-//--------------------------------
+//-------------man-------------------
 
 // :~$ man less     // --->manual for less.
 
@@ -22,10 +24,42 @@
 
 // :~$ man python3
 
-//--------------------------------
+//-------------cat-------------------
 
 
-// :~$ cat textfile.txt              // cat does is read the entire file and output it
+// :~$ cat textfile.txt              //---> cat does is read the entire file and output it
+
+//-------------head/tail-------------------
+
+// :~$ tail textfile.txt             
+
+// :~$ head textfile.txt        
+
+// :~$ tail -n 3 textfile.txt    //--->  just see three lines
+
+// :~$ tail -f textfile.txt   
+
+// :~$ ^c  //--> that 's out of
+
+// open the new terminal
+
+// :~$ echo hi  >> textfile.txt       // --> add something to the end of the file
+
+// :~$ echo hi there >> textfile.txt
+
+// :~$ ^c
+
+// :~$ clear 
+
+//-----------------------------
+    //primary Directory
+// :~$ ls 
+
+// :~$ pwd
+
+// :~$ mkdir
+
+
 
 
 
