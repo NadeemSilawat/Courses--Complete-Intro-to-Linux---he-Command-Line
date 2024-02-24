@@ -115,8 +115,84 @@
 
 // :~$ ls
 
+// :~$ rm -r my-new-file.txt
+
 // :~$  rm -rf /.           // Never run this command:This is a famous command to run that will 
                             // start deleting your whole system including the critical system files. 
+    // trash-cli
+
+// :~$ rash-put file.txt
+//-------------------
+
+// :~$ cp source-file.txt destination-file.txt
+
+// :~$ cp textfile.txt destination-file.txt
+
+// :~$ ls
+        /*Home   destination-file.txt  hi  snap textfile.txt */
+
+// cp -R source-directory destination-directory
+
+// :~$ cp -R hi bye   
+
+// :~$ ls
+
+// :~$ cd bye
+
+// :~/bye$ ls
+
+/* Home  there  you */
+
+// :~/bye$ cd there
+
+// :~/bye/there$ ls
+
+/* Home  me  you */
+
+
+
+//-------------------
+
+//:~$ mv                //(move) the file
+
+// :~$ touch file.txt   //then
+
+// :~$ mv file.txt new-name.txt
+
+// :~$ ls
+
+//-------------------
+        //tar           //Zip File is initialy Compress
+
+        
+// :~$ mkdir folder1
+
+// :~$ cd folder1/       //Go to that Directory
+
+// :~/folder1$ touch file1.txt file2.txt file3.txt file4.txt
+
+// :~/folder1$ ls
+
+// :~/folder1$ cd..
+
+// :~$ ls
+
+// :~$ tar -cf archive.tar textfile.txt folder1
+
+// :~$ ls -lash
+
+// :~$ tar -cf archive.tar.gz textfile.txt folder1
+
+// :~$ mkdir destination-folder
+
+// :~$tar -xzf archive.tar.gz -C destination-folder/
+
+
+    //------Wildcards & Replacement----------//
+
+
+// :~$ 
+
 
 
 
