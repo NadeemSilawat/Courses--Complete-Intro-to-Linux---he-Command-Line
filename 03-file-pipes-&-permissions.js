@@ -53,11 +53,71 @@
 
 //-----------------------------
     //primary Directory
+
+    // /home/username             // home directory
+
 // :~$ ls 
 
 // :~$ pwd
 
-// :~$ mkdir
+// :~$ mkdir my-new-folder 
+
+// :~$ ls
+ 
+// :~$ cd my-new-folder/
+
+// :~$ /my-new-folder ls
+
+// :~$  pwd
+
+// :~$ mkdir -p hi/my/name/is/brian
+
+// :~$ ls
+            //Home hy my-new-folder snap textfile.txt
+// :~$ cd hi/
+
+// :~/hi$ ls 
+    //my
+
+// :~/hi$ cd my/name/is/brian/
+
+// :~/hi/my/name/is/brian$ ls
+
+// :~/hi/my/name/is/brian$ pwd
+
+
+//-----------Creating & Moving Files---------------------//
+
+// Create a new file called "textfile2.txt" in the "/home/username
+
+
+// :~$ mkdir --help
+
+// :~$ cd ~
+
+// :~$ ls
+
+// :~$ ls -lash
+
+// :~$ touch my-new-file.txt   //change modify time
+
+// :~$ ls -lash
+
+// :~$ touch my-new-file.txt
+
+// :~$ echo "Hello World!" >
+
+//-------------------
+
+        //rm
+
+// :~$ rm my-new-file.txt      // remove the one file
+
+// :~$ ls
+
+// :~$  rm -rf /.           // Never run this command:This is a famous command to run that will 
+                            // start deleting your whole system including the critical system files. 
+
 
 
 
