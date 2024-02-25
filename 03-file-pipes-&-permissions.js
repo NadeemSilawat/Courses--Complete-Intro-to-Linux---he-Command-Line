@@ -221,6 +221,43 @@
 
 // :~$ ls file-*    //Showing Wildcard
 
+// :~$ touch file.txt
+
+// :~$ ls 
+    /**file-mn.txt  file-ut.txt  file.tat  file1.txt   file2.txt  file4.txt
+file-mt.txt  file-wa.txt  file.txt  file10.txt  file3.txt*/
+
+//:~$ touch file*.txt
+
+//:~$ touch file?.txt
+
+//:~$  ls file*.txt
+
+    /*file-mn.txt  file-ut.txt  file.txt   file10.txt  file3.txt
+        file-mt.txt  file-wa.txt  file1.txt  file2.txt   file4.txt
+    */
+
+//:~$ ls file?.txt
+    
+/* file1.txt  file2.txt  file3.txt  file4.txt */
+
+//:~$ folder2 cd.. 
+
+//:~$ mkdir folder3 
+
+//:~$ cd folder3
+
+//:~$ touch file{1..30}.txt
+
+//:~$ ls
+
+
+
+
+
+
+
+
 
 
 
