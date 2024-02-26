@@ -270,6 +270,66 @@ file-mt.txt  file-wa.txt  file.txt  file10.txt  file3.txt*/
 
 // a b c d e f g h i j k l m n o p q r s t u v w x y z
 
+//:~$ echo {1..100..10}
+// 1 11 21 31 41 51 61 71 81 91
+
+//:~$ echo {0..100..10}
+// 0 10 20 30 40 50 60 70 80 90 100
+
+//:~$ echo {A..Z..10}
+// A K U
+
+//:~$ echo {a..Z..10}
+//a
+
+//:~$ echo {A..z..10}
+// A K U _ i s
+
+
+//:~$ echo {a..z}{1..5}
+/*a1 a2 a3 a4 a5 b1 b2 b3 b4 b5 
+c1 c2 c3 c4 c5 d1 d2 d3 d4 d5 e1 e2 e3 e4 e5 f1 f2 f3 f4 f5 g1 g2 g3 g4 g5 h1 h2 h3 h4 h5 i1 i2 i3 i4 i5 j1 j2 j3 j4 j5 k1 k2 k3 k4 k5 l1 l2 l3 l4 l5 m1 m2 m3 m4 m5 n1 n2 n3 n4 n5 o1 o2 o3 o4 o5 p1 p2 p3 p4 p5 q1 q2 q3 q4 q5 r1 r2 r3 r4 r5 s1 s2 s3 s4 s5 t1 t2 t3 t4 t5 u1 u2 u3 u4 u5 v1 v2 v3 v4 v5
+w1 w2 w3 w4 w5 x1 x2 x3 
+ x4 x5 y1 y2 y3 y4 y5 z1 z2 z3 z4 z5*/
+
+
+//:~$ echo {a..z}{1..5}{1..2}
+
+//:~$ clear
+
+//  =--------------->
+
+//:~$ touch file\f?.txt
+
+//:~$ ls        //listing all the files in the directory
+
+
+//--------Output Streams-----------//
+
+
+//:~$ cd..
+
+//:~$ mkdir streams     //create a directory
+
+//:~$ cd streams
+
+//:~$ ls
+
+//:~$ echo "Hello World"
+
+//:~$ echo  "Hello World" 1> hello.txt    
+
+//:~$ cat hello.txt    
+
+//:~$ echo "Hello World"    //  Output :: Hello World
+
+
+
+
+
+
+ 
+
 
 
 
