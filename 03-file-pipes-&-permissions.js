@@ -251,6 +251,28 @@ file-mt.txt  file-wa.txt  file.txt  file10.txt  file3.txt*/
 
 //:~$ ls
 
+//:~$ touch file{a..z}.txt
+
+//:~$ ls
+        /***
+         * file1.txt   file17.txt  file24.txt  file4.txt  filec.txt  filek.txt  files.txt
+            file10.txt  file18.txt  file25.txt  file5.txt  filed.txt  filel.txt  filet.txt
+            file11.txt  file19.txt  file26.txt  file6.txt  filee.txt  filem.txt  fileu.txt
+            file12.txt  file2.txt   file27.txt  file7.txt  filef.txt  filen.txt  filev.txt
+            file13.txt  file20.txt  file28.txt  file8.txt  fileg.txt  fileo.txt  filew.txt
+            file14.txt  file21.txt  file29.txt  file9.txt  fileh.txt  filep.txt  filex.txt
+            file15.txt  file22.txt  file3.txt   filea.txt  filei.txt  fileq.txt  filey.txt
+            file16.txt  file23.txt  file30.txt  fileb.txt  filej.txt  filer.txt  filez.txt
+
+         */
+
+//:~$ echo {a..z}
+
+// a b c d e f g h i j k l m n o p q r s t u v w x y z
+
+
+
+
 
 
 
