@@ -323,9 +323,59 @@ w1 w2 w3 w4 w5 x1 x2 x3
 
 //:~$ echo "Hello World"    //  Output :: Hello World
 
+//:~$ cat hello.txt 1> another-file.txt
+
+//:~$ ls 
+
+//:~$ cat another-file.txt
+
+//:~$ cat hello.txt 1>> another-file.txt   //appending to existing file
+
+//:~$  cat another-file.txt
+/* Hello World
+    Hello World
+    */
+
+//:~$  cat hello.txt 1> another-file.txt
+
+//:~$  cat another-file.txt
+
+/*Hello World* */
+
+//:~$ ls -lsah 1> ls.txt
+
+//:~$ ls
+    /*another-file.txt  
+        hello.txt   
+        ls.txt*/
+
+//:~$ cat ls.txt
+
+//:~$ ls -lsah 2> ls-error.txt
+
+//:~$ ls -lsah > ls.txt
+
+//:~$ ls -lsah >> ls.txt
+
+//:~$ ls -lsah 2> /dev/null
+
+//:~$ cat some-file.txt 1> /dev/null
+
+//:~$ cat some-file.txt 2> /dev/null
 
 
 
+
+
+
+ 
+
+
+//--------Input Streams----------//
+
+
+//:~$
+ 
 
 
  
