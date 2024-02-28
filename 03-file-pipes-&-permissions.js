@@ -423,6 +423,45 @@ w1 w2 w3 w4 w5 x1 x2 x3
 //:~$ kill -9 1126
 
 
+//---------
+//working on folder3/
+
+//:~/$ rm -i *.txt      // remove all file with .txt But Permission "y" or "n"
+
+//:~/$ yes n | rm - *.txt       
+
+//:~/$ yes y | rm - *.txt       //all txt file imidietaly Deleted
+
+//:~/$ ls
+
+//:~/$ echo lollerskates > file.txt
+
+//:~/$ cat file.txt 
+
+//:~/$ cat file.txt >>echo
+//:~/$ ls 
+
+//:~/$ cat file.txt | echo
+
+//:~/$ cat file.txt | cat 
+
+//:~/$ cat file.txt | echo hy
+    //hi
+
+//:~/$ yes > /dev/null &    //[1] 1257
+
+//:~/$ ps aux | grep yes 
+
+                //------Principle of least Power----------//
+
+//:~$ whoami        //dell 
+
+
+//:~$ 
+
+
+
+
 
 
 
