@@ -540,15 +540,74 @@ w1 w2 w3 w4 w5 x1 x2 x3
 //:~$  su brian
     /**password:**/
 
-// :~ $ whoami              // Checking Username
+//  $ whoami              // Checking Username
     /*brian*/
 
-//:~$ sudo whoami             //Checking Sudo Username
+// $ sudo whoami             //Checking Sudo Username
     /*root*/
+
+// $ exit
+
 
                 
     
                 //-----------Group Permission----------//
+
+//:~$ su brian
+
+// $ whoami 
+    /*brian*/
+
+// $ ls
+
+// $ pwd
+    /* / */
+
+// $ cd /home/james
+    /*bash: cd: /home/
+               james: No such file or directory*/
+
+// $ ls
+
+// $ ls -lsah 
+
+// $ vi another-file.txt
+
+// $ whoami 
+    /*brian*/
+
+// $ ls -lsah /bin
+
+// $ pwd    
+
+// $ ls -lsah
+
+// $ touch brian.txt
+
+// $ sudo touch brian.txt
+
+// $ ls -lsah
+
+// $ exit 
+
+//-----------
+
+//:~$ whoami
+
+//:~$ mkdir hello
+
+//:~$ sudo mkdir hello
+
+//:~$ ls
+
+//:~$ cd hello
+
+//:~/hello$ touch hello.txt
+
+//:~/hello$ sudo chown ubuntu:ubuntu /hello
+
+//:~/hello$ ls -lsah
+
 
 
 
