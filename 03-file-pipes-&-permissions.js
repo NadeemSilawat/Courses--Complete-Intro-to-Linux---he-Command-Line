@@ -457,7 +457,46 @@ w1 w2 w3 w4 w5 x1 x2 x3
 //:~$ whoami        //dell 
 
 
-//:~$ 
+//:~$ cat /etc/passwd
+
+//:~/$ cd..
+
+//:~/$ mkdir hi         //creat hi direc.
+
+//:~/$ -lsah
+ 
+//:~/$ cd ..
+
+//:~/$ cd Home/
+
+//:~/$  ls -lsah
+
+//:~/$ rm -rf / Home/*     //delete all files and dir in    /
+
+
+        //-----------Superuser------------------//
+
+//:~/home$ cd /
+
+//:~/$ ls
+
+//:~/$ sudo mkdir hi
+
+//:~/$ ls
+
+//:~/$ ls -lsah
+
+//:~/$ sudo whoami          //root
+
+//:~/$ whoami               //dell
+
+//:~/$ sudo su      // Enter the root directory
+
+//:/# whoami               //root
+
+//:/# exit                 //exit from super user to normal user
+
+//:~/$ 
 
 
 
