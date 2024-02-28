@@ -496,7 +496,35 @@ w1 w2 w3 w4 w5 x1 x2 x3
 
 //:/# exit                 //exit from super user to normal user
 
-//:~/$ 
+//:~/$ sudo echo hi         //-----hi
+
+//:~/$ sudo useradd brian           //brand new User
+
+//:~/$ sudo passwd brian            //password
+/*Enter new UNIX password:
+*Retype ne UNIX password: 
+*
+*passwd: password updated successfully
+*/
+
+//:~/$ su  brian                    //Enter the Passwd
+    /**password: */
+
+//$ pwd
+
+/* / */
+
+// $ whoami     
+    // brian
+
+// $  ls
+
+// $ cat /etc/issue
+    // Ubuntu 18.04.4 LTS \n \l
+
+// $ clear
+ 
+
 
 
 
