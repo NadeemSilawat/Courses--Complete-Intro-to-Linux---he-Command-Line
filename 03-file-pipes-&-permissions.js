@@ -374,7 +374,62 @@ w1 w2 w3 w4 w5 x1 x2 x3
 //--------Input Streams----------//
 
 
-//:~$
+//:~$ grep "ls-error.txt" < ls.txt
+    /**  Output:
+     * 0 -rw-r--r-- 1 dell 197121  0 Feb 27 19:47 ls-error.txt
+     0 -rw-r--r-- 1 dell 197121   0 Feb 27 19:47 ls-error.txt
+
+    */      //the contents of the file to standard input(stdin)
+//-----------
+    // Using stdin and stdout
+
+//:~$ grep "ls-error.txt" < ls.txt 1> grep.txt 2> /dev/null   
+
+//:~$ cat grep.txt
+    /**Output:
+     * 0 -rw-r--r-- 1 dell 197121  0 Feb 27 19:47 ls-error.txt
+        0 -rw-r--r-- 1 dell 197121   0 Feb 27 19:47 ls-error.txt
+     * /
+
+//:~$ grep "ls-error.txt" < ls.txt
+
+     /**Output:
+     * 0 -rw-r--r-- 1 dell 197121  0 Feb 27 19:47 ls-error.txt
+        0 -rw-r--r-- 1 dell 197121   0 Feb 27 19:47 ls-error.txt
+         * /
+
+
+
+    //---Pipes----//
+
+
+//:~$ cat ls.txt | grep "ls-error.txt"   //Concatinate One Prg. to Another
+
+//:~$ echo hello >> ls.txt
+
+//:~$ cat ls.txt
+    //hello
+
+
+
+//:~$ ps aux    //display information about all running processes on the system
+
+//:~$ ps aux | grep "ps aux "
+
+//:~$ yes > /dev/null &     //[1] 1188
+
+//:~$ ps aux | grep "yes"
+
+//:~$ kill -9 1126
+
+
+
+
+
+
+
+
+
  
 
 
