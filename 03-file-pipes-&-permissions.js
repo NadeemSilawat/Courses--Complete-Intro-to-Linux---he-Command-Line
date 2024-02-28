@@ -608,6 +608,50 @@ w1 w2 w3 w4 w5 x1 x2 x3
 
 //:~/hello$ ls -lsah
 
+//:~/hello$ touch hello.txt
+
+
+//:~/hello$ su brian
+    // Password:
+
+// $ ls
+        // hello.txt
+
+// $ touch brian.txt                //Permission Denied
+
+// $ exit
+
+//:~/hello$ sudo chmod u=rw,g=rw,o=rw  ./hello.txt   //Make the file readable
+                /* u = User 
+                    g = group
+                    o = other users
+                    rw = read and write */
+                
+ //:~/hello$ su brian
+    //Password:
+
+// $ touch brian.txt
+
+// $ ls
+        //hello.txt
+
+// $ vi hello.txt               ------> write 
+
+// $ exit
+
+
+// :~/hello$ cat hello.txt
+
+// :~/hello$ ls -lsah
+
+            //-------------Permission Shortcuts----------//
+
+            
+
+
+
+
+ 
 
 
 
