@@ -646,12 +646,40 @@ w1 w2 w3 w4 w5 x1 x2 x3
 
             //-------------Permission Shortcuts----------//
 
-            
+//:~/hello$ touch file.txt
 
+//:~/hello$ sudo chmod 777 file.txt     --------------> This command will give read, write and execute permission to the owner, group and public.
+              
 
+//:~/hello$ sudo chmod u=rwx, g=rwx, o=rwx file.txt
 
+        /*chmod:  Linux changes the permissions of a file or directory*/
 
- 
+//:~/hello$ sudo chmod 667 file.txt      /*Sets all three bits to '1    
+
+//:~/hello$ sudo chmod 700 file.txt
+
+//:~/hello$ ls -lsah
+
+//:~/hello$ sudo chmod 600 file.txt
+
+//:~/hello$ ls -lsah
+
+//:~/hello$ sudo chmod 640 file.txt
+
+//:~/hello$ ls -lsah
+
+//:~/hello$ touch my-new-program 
+
+//:~/hello$ sudo chmod +x my-new-program   /*Add execute permission for user */
+
+//:~/hello$ ls -lsah
+
+//:~/hello$ sudo chmod -x my-new-program    /*Remove execute permission for user */
+
+//:~/hello$ ls -lsah
+
+//:~/hello$ sudo chmod +w my-new-program        /*Add write permission for user */
 
 
 
