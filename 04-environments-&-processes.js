@@ -58,5 +58,30 @@
 
                 //-------Processes----------//
 
-                    
+// :~$ ps                           // shows all processes with process name in them.
+
+// :~$ sleep 1
+
+// :~$ sleep 2
+
+// :~$ sleep 10 &                   //runs sleep command as a background process, returns its PID (process ID)
+
+// :~$ ps
+
+// :~$ ps
+
+// :~$ sleep 100 &                  
+
+// :~$ ps aux               
+
+
+
+// :~$ kill -9 <sleep-process-id>      //kills a specific process, identified by
+
+
+
+
+
+
+                     
 
