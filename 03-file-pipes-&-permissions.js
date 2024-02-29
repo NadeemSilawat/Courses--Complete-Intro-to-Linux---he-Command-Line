@@ -677,7 +677,7 @@ w1 w2 w3 w4 w5 x1 x2 x3
 
 //:~/hello$ sudo chmod -x my-new-program    /*Remove execute permission for user */
 
-//:~/hello$ ls -lsah
+//:~/hello$ ls -lsah    
 
 //:~/hello$ sudo chmod +w my-new-program        /*Add write permission for user */
 
