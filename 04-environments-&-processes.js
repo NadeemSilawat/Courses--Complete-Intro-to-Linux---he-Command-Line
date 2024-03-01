@@ -72,7 +72,23 @@
 
 // :~$ sleep 100 &                  
 
-// :~$ ps aux               
+// :~$ ps aux        
+
+// :~$ ps
+
+// :~$ kill -SIGKILL 1783           
+
+// :~$ ps aux 
+
+// :~$ ps aux | less
+
+// :~$ ps aux | grep "ps"
+
+// :~$ jobs         
+
+// :~$ bg 1                 
+
+// :~$  
 
 
 
