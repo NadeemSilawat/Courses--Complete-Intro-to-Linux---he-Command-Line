@@ -121,7 +121,7 @@
                         //------------Exit Codes & Process--------------//
 
 
-// :~$ date                  ---------> Curretn Date 
+// :~$ date                  ---------> Current Date 
 
 // :~$ echo &?                --------> $? corresponds to the last exit code, in this case 0
  
