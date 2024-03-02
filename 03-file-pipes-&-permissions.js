@@ -2,12 +2,14 @@
 
             //-------LESS-------
 
-// :~$ less textfile.txt
+// :~$ less textfile.txt                    //Exit q
 
 // :~$ ls 
 // textfile.txt  test1.c   test2.c   test3.cpp
 
-// :~$  vi textfile.txt
+// :~$  vi textfile.txt                 // (i)ESC (ii) CTRL+ :wq Exit
+                                        // Without Save Quit => :q!
+
 
 // :~$ less 
 
