@@ -57,3 +57,52 @@
 
 
 
+                //-------- SFTP ----------//
+        // SFTP : Secure File Transfer Protocols
+// transfer files between two computers
+
+
+// :~$ sftp brian @<the same ip from the previous step>         
+// Password: <enter your password here>
+/*
+Connected to localhost.
+
+sftp> pwd
+Remote working directory: /var/www/html
+
+sftp> put testfile.txt
+
+Uploading testfile.txt to /var/www/html/testfile.txt
+
+testfile.txt    100%   50     0.0KB/s   00:00
+
+*/
+
+
+
+                //---------Wget-------------//
+
+/**send requests to the Internet and/or network.**/
+
+// :~$ wget https://raw.githubusercontent.com/btholt/bash2048/master/bash2048.sh
+
+// :~$ ls
+
+// :~$ chmod 700 bash2048.sh
+
+// :~$ ./bash2048.sh   
+
+
+                //----------curl Basics--------------//
+ 
+        // curl works more like a normal Linux program        
+
+// :~$ curl https://raw.githubusercontent.com/btholt/bash2048/master/bash2048.sh
+  
+// :~$ curl https://raw.githubusercontent.com/btholt/bash2048/master/bash2048.sh > game.sh
+
+// :~$  cat game.sh                            // display contents of
+// file in terminal
+
+// :~$ sh game.sh                                             // run the script
+ 
