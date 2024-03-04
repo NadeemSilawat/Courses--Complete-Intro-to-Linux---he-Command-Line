@@ -106,3 +106,13 @@ testfile.txt    100%   50     0.0KB/s   00:00
 
 // :~$ sh game.sh                                             // run the script
  
+// :~$ cd ~
+
+// :~$ pwd
+// /home/student
+
+// :~$ python3 -m http.server 8000 --bind 0.0.0.0
+// Starting HTTP Server: Running on http://0.0.0.0:8000/, Ctrl+C to stop server.
+
+// :~$ exit                                               // close out of ssh session
+
