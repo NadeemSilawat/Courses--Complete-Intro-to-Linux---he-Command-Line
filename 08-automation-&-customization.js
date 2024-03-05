@@ -59,4 +59,39 @@ The above five stars would run every minute. Each of those stars represents a fr
 
 //:~$ curl https://raw.githubusercontent.com/riobard/bash-powerline/master/bash-powerline.sh > ~/.bash-powerline.sh
 
+//:~$ cat .bash_powerline
 
+//:~$ vi .bashrc
+
+//:~$ cd ..
+
+//:~/home$ cd ubantu/
+
+//:~$ ls
+
+//:~$  mkdir my-git-project
+
+//:~$ cd my-git-project/
+
+//:~/my-git-project $ git init
+
+//:~/my-git-project master $ git checkout -b another-project
+
+//:~/my-git-project another-project $ touch file1.txt
+
+
+
+
+                        //----------Colors & Awesome Bash--------------//
+
+//:~/my-git-project another-project $ cd .. 
+
+//:~$ /bin/echo
+
+//:~$ /bin/echo -e "hi"
+    // hi
+
+//:~$ echo -e "this is you make color \e[32mgreen"
+        // this is you make color green
+
+//:~$  /usr/bin/env bash --version          
